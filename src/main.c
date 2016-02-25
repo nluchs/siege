@@ -146,7 +146,7 @@ display_help()
   puts("  -l, --log[=FILE]          LOG to FILE. If FILE is not specified, the");
   printf("                            default is used: PREFIX/var/%s.log\n", program_name);
   puts("  -m, --mark=\"text\"         MARK, mark the log file with a string." );
-  puts("  -d, --delay=NUM           Time DELAY, random delay before each requst");
+  puts("  -d, --delay=NUM           Time DELAY, random delay before each request");
   puts("                            between .001 and NUM. (NOT COUNTED IN STATS)");
   puts("  -H, --header=\"text\"       Add a header to request (can be many)" ); 
   puts("  -A, --user-agent=\"text\"   Sets User-Agent in request" ); 
